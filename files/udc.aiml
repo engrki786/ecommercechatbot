@@ -1,15 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
-    <pattern>Hello</pattern>
+<category>
+    <pattern>HELLO</pattern>
     <template>Hello, how may I help you.</template>
-  </category>
-<category>
-    <pattern></pattern>
-    <template></template>
 </category>
+
 <category>
-    <pattern></pattern>
-    <template></template>
+    <pattern>HI</pattern>
+    <template><srai>Hello</srai></template>
 </category>
+
+<category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>My name is EcomBot. How can I assist you today?</template>
+</category>
+
+<category>
+  <pattern>I AM LOOKING TO BUY SOMETHING</pattern>
+  <template>What are you looking to buy today?</template>
+</category>
+
+
+<category>
+  <pattern>WHAT CAN YOU HELP ME WITH TODAY</pattern>
+  <template>I can help you find products, track your order, answer questions about our products and deals, and more. What can I help you with today?</template>
+</category>
+
+<category>
+  <pattern>WHAT TYPES OF PRODUCTS DO YOU SELL</pattern>
+  <template>We sell a wide variety of products including electronics, clothing, home goods, and more. What are you looking for?</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR RETURN POLICY</pattern>
+  <template>Our return policy varies by product. Please check the product page or contact customer support for more information.</template>
+</category>
+
+<category>
+  <pattern>DO YOU OFFER FREE SHIPPING</pattern>
+  <template>We offer free shipping on orders over $50. Some products may not qualify for free shipping. Please check the product page for more information.</template>
+</category>
+
+<category>
+  <pattern>WHAT PAYMENT METHODS DO YOU ACCEPT</pattern>
+  <template>We accept major credit cards, PayPal, and Apple Pay. Which payment method do you prefer?</template>
+</category>
+
+<category>
+  <pattern>DO YOU HAVE ANY COUPON CODES OR DISCOUNTS AVAILABLE</pattern>
+  <template>Yes, we have several coupon codes and discounts available. Please check our website or subscribe to our newsletter for the latest deals.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR BESTSELLING PRODUCT</pattern>
+  <template>Our bestselling product varies by season and category. Please check our website for the latest top-selling products.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR PRICE RANGE</pattern>
+  <template>Our products vary in price range. Please check the product page for the price range of each product.</template>
+</category>
+
+<category>
+  <pattern>DO YOU HAVE ANY NEW PRODUCTS AVAILABLE</pattern>
+  <template>Yes, we have new products added regularly. Please check our website or subscribe to our newsletter for the latest products.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR SHIPPING POLICY</pattern>
+  <template>We offer various shipping options including standard, expedited, and overnight shipping. Please check the product page for more information.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR WARRANTY POLICY</pattern>
+  <template>Our warranty policy varies by product. Please check the product page or contact customer support for more information.</template>
+</category>
+
+<category>
+  <pattern>HOW DO I PLACE AN ORDER</pattern>
+  <template>You can place an order directly on our website. If you need help, please let me know.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR CONTACT INFORMATION</pattern>
+  <template>You can contact us through our website, email, or phone. Please visit our website for more information.</template>
+</category>
+
+<category>
+  <pattern>WHAT ARE YOUR BUSINESS HOURS</pattern>
+  <template>We are open 24/7 for online orders. Customer support is available during regular business hours. Please check our website for more information.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR PRIVACY POLICY</pattern>
+  <template>We take your privacy seriously. Please check our website for our privacy policy.</template>
+</category>
+
+<category>
+  <pattern>WHAT ARE YOUR DELIVERY TIMES</pattern>
+  <template>Delivery times vary by product and shipping option</template>
+</category>
+
+<category>
+  <pattern>WHAT ARE YOUR DELIVERY TIMES</pattern>
+  <template>Delivery times vary by product and shipping option</template>
+</category>
+
+<category>
+  <pattern>DO YOU OFFER INTERNATIONAL SHIPPING</pattern>
+  <template>Yes, we offer international shipping to select countries. Please check our website for more information.</template>
+</category>
+
+<category>
+  <pattern>HOW DO I TRACK MY ORDER</pattern>
+  <template>You can track your order through our website. Please provide your order number and we'll help you track your order.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR CANCELLATION POLICY</pattern>
+  <template>Our cancellation policy varies by product. Please check the product page or contact customer support for more information.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR EXCHANGE POLICY</pattern>
+  <template>Our exchange policy varies by product. Please check the product page or contact customer support for more information.</template>
+</category>
+
+<category>
+  <pattern>DO YOU OFFER GIFT CARDS</pattern>
+  <template>Yes, we offer gift cards. Please visit our website or contact customer support to purchase a gift card.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR PRODUCT AVAILABILITY</pattern>
+  <template>Our product availability varies by product. Please check the product page for more information.</template>
+</category>
+
+<category>
+  <pattern>DO YOU OFFER INSTALLMENT PAYMENTS</pattern>
+  <template>Yes, we offer installment payments through our financing partners. Please visit our website or contact customer support for more information.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR CUSTOMER SATISFACTION POLICY</pattern>
+  <template>We strive for customer satisfaction. If you're not satisfied with your purchase, please contact customer support for assistance.</template>
+</category>
+
+<category>
+  <pattern>DO YOU OFFER PRICE MATCHING</pattern>
+  <template>Yes, we offer price matching on select products. Please check our website for more information.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR REWARDS PROGRAM</pattern>
+  <template>We offer a rewards program for frequent shoppers. Please visit our website or contact customer support for more information.</template>
+</category>
+
+<category>
+  <pattern>DO YOU OFFER CUSTOMIZATION OPTIONS</pattern>
+  <template>Some products may offer customization options. Please check the product page for more information.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR REFUND POLICY</pattern>
+  <template>Our refund policy varies by product. Please check the product page or contact customer support for more information.</template>
+</category>
+
+<category>
+  <pattern>REFUND POLICY</pattern>
+  <template><srai>WHAT IS YOUR REFUND POLICY</srai></template>
+</category>
+
+<category>
+  <pattern>DO YOU OFFER BULK ORDER DISCOUNTS</pattern>
+  <template>Yes, we offer bulk order discounts on select products. Please check our website or contact customer support for more information.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS YOUR PRODUCT WARRANTY</pattern>
+  <template>Our product warranty varies by product. Please check the product page or contact customer support for more information.</template>
+</category>
+
+<category>
+  <pattern>DO YOU OFFER FREE RETURNS</pattern>
+  <template>We offer free returns on select products. Please check the product page or contact customer support for more information.</template>
+</category>
+
 </aiml>
